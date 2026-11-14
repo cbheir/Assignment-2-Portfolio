@@ -10,12 +10,13 @@ Reference:
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+<!--ejs title from webproject zip from hands on-->
     <title><%= title %> | Christina Bheir</title>
 <!--Bootstrap css-->
     <link rel="stylesheet"
           href="/bootstrap/dist/css/bootstrap.min.css">
 
-<!--font awesome css-->
+<!--font awesome css from hands on-->
     <link rel="stylesheet"
           href="/@fortawesome/fontawesome-free/css/all.min.css">
 
@@ -26,16 +27,39 @@ Reference:
 
 <body>
 <!-- navigation-->
-<header>
-    <h1>Christina Bheir</h1>
-</header>
-     <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">About Me</a></li>
-            <li><a href="/projects">Projects</a></li>
-            <li><a href="/contact">Contact Me</a></li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">
+            Christina Bheir
+        </a>
+
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-item">
+                    <i class="fa-solid fa-house"></i> Home
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/about">
+                    <i class="fa-solid fa-info"></i> About Me
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/projects">
+                    <i class="fa-brands fa-elementor"></i> Projects
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/contact">
+                    <i class="fa-solid fa-phone"></i> Contact Me
+                </a>
+            </li>
+
         </ul>
-    </nav>
+    </div>
+</nav>
 
 <main>
