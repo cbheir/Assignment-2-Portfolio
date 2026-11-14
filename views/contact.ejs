@@ -1,0 +1,64 @@
+<!--
+Reference: 
+- Lecture slides week 1 to 4
+- Assignment 1 reuse of content from contact.html as permitted by Prof
+-->
+<%- include ('partials/header') %>
+<section>
+    <h2>Contact Me</h2>
+
+    <p>Please feel free to contact me!</p>
+
+    <h3>Send me your project related inquiries or comments.</h3>
+
+    <p>
+        Please complete the form below.
+        Fill out all mandatory fields.
+    </p>
+
+    <form action="#" method="get">
+        <p>
+            <label for="name">Full Name:</label>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   required>
+        </p>
+
+       <p>
+            <label for="email">Email:</label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   required>
+        </p>
+
+       <p>
+            <label for="phone">Phone Number:</label>
+            <input type="tel"
+                   id="phone"
+                   name="phone"
+                   required>
+        </p>
+
+       <p>
+            <label for="comments">Comments:</label>
+            <textarea type="comments"
+                   id="comments"
+                   name="comments"
+                   rows="5"
+                   required></textarea>
+        </p>
+
+        <!--submit button-->
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+    </form>
+
+        <p>
+            Email: christina.bheir@ontariotechu.net
+        </p>
+</section>
+
+<%- include('partials/footer') %>
