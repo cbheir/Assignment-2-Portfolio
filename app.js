@@ -1,3 +1,6 @@
+/* 
+Reference: Lecture Hands On with WebProject.zip, app.js and express generator structure
+*/
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -11,13 +14,18 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+/*
+Reference: app.js from in class hands on 
+*/
 app.use(express.static(path.join(__dirname, 'public')));
+
+app.use(express.static(path.join(__dirname, 'node_modules'))); 
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
