@@ -1,18 +1,16 @@
-/* 
+<!--
 Reference: 
 - Lecture slides HTML doc structure, headings, links and navigation
 - Hands on examples about ejs page structure and bootstrap & stylesheet references
+- WebProject.zip used for reference
 - Assignment 1 reuse of page organization and design as permitted by Prof
-*/
+-->
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title><%= title %> | Christina Bheir </title>
+    <title><%= title %> | Christina Bheir</title>
 <!--Bootstrap css-->
     <link rel="stylesheet"
           href="/bootstrap/dist/css/bootstrap.min.css">
@@ -27,7 +25,17 @@ Reference:
 </head>
 
 <body>
+<!-- navigation-->
+<header>
+    <h1>Christina Bheir</h1>
+</header>
+     <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Me</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Contact Me</a></li>
+        </ul>
+    </nav>
 
-    
-</body>
-</html>
+<main>
