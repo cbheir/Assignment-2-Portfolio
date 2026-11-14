@@ -1,8 +1,86 @@
+/*
+References:
+- assignment 1: laptop, mobile, tablet css files (colour scheme, margins, padding, design and queries)
+- lecture slides about css selectors and colours
+*/
+
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: royalblue;
+    background-color: pink;
+    background: linear-gradient(to bottom, pink 0%,  royalblue 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
 }
 
-a {
-  color: #00B7FF;
+/* Bootstrap nav colour */
+nav {
+  background-color: royalblue;
+}
+/* portfolio main colour */
+
+main {
+  width: 90%;
+  margin: auto;
+  padding: 25px;
+  background-color: ghostwhite;
+  min-height: 70vh;
+}
+
+/* heading */
+h1 {
+  color:royalblue;
+}
+
+h2 {
+  color: midnightblue;
+}
+
+/* sections */
+section {
+  background-color: beige;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* imgs and vids */
+img, video {
+  max-width: 100%;
+}
+
+/* form elements */
+input, textarea {
+  max-width: 100%;
+}
+
+/* footer */
+footer{
+  background-color: royalblue;
+  color: ghostwhite;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: ghostwhite;
+  margin: 10px;
+
+}
+
+/* for tablet viewport */
+@media only screen and (min-width: 481px) and (max-width: 959px) {
+  main {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+/* for mobile viewport */
+@media only screen and (max-width: 480px) {
+  main {
+    width: 100%;
+    padding: 15px;
+  }
+  input, textarea {
+    max-width: 90%;
+}
 }
