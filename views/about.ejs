@@ -1,0 +1,40 @@
+<!--
+Reference: 
+- Lecture slides week 1 and 2
+- Assignment 1 reuse of content from about.html as permitted by Prof
+-->
+
+<%- include('partials/header') %>
+
+<section>
+    <h2>My Background</h2>
+
+    <!--image from assignment 1-->
+    <img src="public/images/image1.jpg"
+        alt="Christina Bheir"
+        width="250">
+
+    <p>
+        Hello! I'm Christina Bheir, a Bachelor of Information
+        Technology Student majoring in Technology Management.
+        I'm very interested in business, technology and entrepreneurship.
+        I enjoy exploring and learning new topics!
+    </p>
+
+<!-- reference: week 2 lecture slides about embedding native video -->
+<section>
+    <h2>Christina Bheir's Introduction Video</h2>
+                <!-- displays poster image -->
+    <video controls width="400" poster="images/pimage1.png">
+        <source src="videos/introduction.mp4" 
+                type="video/mp4">
+        Your browser doesn't support HTML5 video.
+        </video>
+
+<p>
+    An introductory video about me,
+    my interests and goals!
+</p>
+</section>
+
+<%- include('partials/footer') %>
