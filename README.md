@@ -37,19 +37,22 @@ Third party frameworks
 
 - My Assignment 1 content reused with permission from posted announcement and in class confirmation
 - Assignment 1 content: introduction and background text, project description, CSS styling, form fields
-- Internet was used less than 10% in the capacity to better grasp certain concepts not to apply them. It was used for research purposes not application purposes. Majority of my code is from course material along with what I've previously learned from other courses and implemented my learning and knowledge into this assignment. The internet was also used to troubleshoot where i went wrong. 
+- External sources did not exceed 10% capacity, Internet was used to better grasp certain concepts not to apply them. It was used for research purposes not application purposes. Majority of my code is from course material along with what I've previously learned from other courses and implemented my learning and knowledge into this assignment. The internet was used to troubleshoot where i went wrong. 
 
 ## Where the references were applied 
-- app.js: express application setup, file configuration and ejs view engine 
-- routes/index.js: express router and res.render()
+- app.js: express application configuration, static file setup and ejs view engine 
+- bin/www: http server configuration by express generator
+- routes/index.js: express router and res.render() methods
 - bootstrap source: based on in class hands on activity 
 - views/index.ejs: ejs, bootstrap navigation, stylesheet and font awesome
+- views/partials/header.ejs: html structure, bootstrap 5 navigation, font awesome and stylesheet references
+- views/partials/footer.ejs: footer structure with github and linkedIn links from assignment 1 
 
 ### Additional topics used for reference
 - HTML5 structure and semantic elements
 - Heading and links
 - Image and HTML5 video
-- Forms, CSS styling, colours
+- Forms, CSS styling
 
 ## Requirements that i implemented
 - Express generator with EJS through views 
@@ -64,6 +67,12 @@ https://github.com/cbheir/Assignment-2-Portfolio
 
 ## Live Website 
 https://assignment-2-portfolio-g2hi.onrender.com 
+
+## Running locally
+- open Assignment-2-portfolio in terminal
+- run npm install (to install project dependencies)
+- run npm start (to start express server)
+- open localhost:3000 in web browser
 
 ## Development
 Multiple commits will be visible throughout development.
