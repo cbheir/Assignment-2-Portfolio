@@ -68,6 +68,12 @@ https://github.com/cbheir/Assignment-2-Portfolio
 ## Live Website 
 https://assignment-2-portfolio-g2hi.onrender.com 
 
+## Link to Demo Video
+https://www.veed.io/view/c18d4121-9948-4b2e-981e-83cce99fea2f?panel=share 
+
+## Second Link to Demo Video
+https://drive.google.com/file/d/1W5oa7d9RwYlOjyH6t2rnIp1TTOYfhMlq/view?usp=sharing 
+
 ## Accessing live website through Render
 - Click live website link or copy & paste it in browser
 - If it doesn't load automatically please wait for 30-60 seconds for server to start
