@@ -37,7 +37,7 @@ Third party frameworks
 
 - My Assignment 1 content reused with permission from posted announcement and in class confirmation
 - Assignment 1 content: introduction and background text, project description, CSS styling, form fields
-- External sources did not exceed 10% capacity, Internet was used to better grasp certain concepts not to apply them. It was used for research purposes not application purposes. Majority of my code is from course material along with what I've previously learned from other courses and implemented my learning and knowledge into this assignment. The internet was used to troubleshoot where i went wrong. 
+- Internet was used to better grasp certain concepts not to apply them. It was used for research purposes not application purposes. Majority of my code is from course material along with what I've previously learned from other courses and implemented my learning and knowledge into this assignment. The internet was used to troubleshoot where i went wrong. 
 
 ## Where the references were applied 
 - app.js: express application configuration, static file setup and ejs view engine 
