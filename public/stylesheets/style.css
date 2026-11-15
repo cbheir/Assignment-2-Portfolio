@@ -16,6 +16,17 @@ body {
 nav {
   background-color: rgb(145, 121, 112);
 }
+
+/* homepage links */
+main section a {
+  color: rgb(67, 42, 17);
+  font-weight: bold;
+}
+
+main section a:hover {
+  color: rgb(145, 121, 112);
+}
+
 /* portfolio main colour */
 
 main {
