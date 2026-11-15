@@ -5,16 +5,16 @@ References:
 */
 
 body {
-    color: royalblue;
-    background-color: pink;
-    background: linear-gradient(to bottom, pink 0%,  royalblue 100%);
+    color: rgb(67, 42, 17);
+    background-color: rgb(241, 211, 216);
+    background: linear-gradient(to bottom, rgb(117, 77, 84) 0%,  rgb(67, 42, 17)100%);
     font-family: Arial, Helvetica, sans-serif;
     margin:0px;
 }
 
 /* Bootstrap nav colour */
 nav {
-  background-color: royalblue;
+  background-color: rgb(145, 121, 112);
 }
 /* portfolio main colour */
 
@@ -22,22 +22,22 @@ main {
   width: 90%;
   margin: auto;
   padding: 25px;
-  background-color: ghostwhite;
+  background-color: rgb(246, 241, 228);
   min-height: 70vh;
 }
 
 /* heading */
 h1 {
-  color:royalblue;
+  color: rgb(67, 42, 17);
 }
 
 h2 {
-  color: midnightblue;
+  color: rgb(37, 16, 8);
 }
 
 /* sections */
 section {
-  background-color: beige;
+  background-color: rgb(241, 235, 219);
   padding: 20px;
   margin-bottom: 20px;
 }
@@ -54,14 +54,14 @@ input, textarea {
 
 /* footer */
 footer{
-  background-color: royalblue;
-  color: ghostwhite;
+  background-color: rgb(67, 42, 17);
+  color: rgb(244, 232, 221);
   text-align: center;
   padding: 20px;
 }
 
 footer a {
-  color: ghostwhite;
+  color: rgb(255, 244, 226);
   margin: 10px;
 
 }
