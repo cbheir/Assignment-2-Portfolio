@@ -22,8 +22,15 @@ Home, About Me, Projects, Contact Me
 Node.js, ExpressJS, EJS, Bootstrap, Font-Awesome, CSS, Javascript
 
 ## Code Reference and Resource Material
-- INFR3120 lecture slides
-- INFR3120 in class examples and hands on
+INFR3120 lecture slides:
+- Week 1 - 4 slides and notes 
+- ConnollyHoar_3rdEd_Chapter 8.pptx
+- ConnollyHoar_3rdEd_Chapter 9.pptx
+- ConnollyHoar_3rdEd_Chapter 10.pptx
+
+INFR3120 in class examples and hands on
+- Webproject.zip
+
 - My Assignment 1 content reused with permission from posted announcement and in class confirmation
 - Assignment 1 content: introduction and background text, project description, CSS styling, form fields
 - Internet was used less than 10% in the capacity to better grasp certain concepts not to apply them. It was used for research purposes not application purposes. Majority of my code is from course material along with what I've previously learned from other courses and implemented my learning and knowledge into this assignment. The internet was also used to troubleshoot where i went wrong. 
