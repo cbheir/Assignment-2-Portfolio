@@ -31,6 +31,10 @@ INFR3120 lecture slides:
 INFR3120 in class examples and hands on
 - Webproject.zip
 
+Third party frameworks
+- Bootstrap: version 5.3.9
+- Font Awesome free: version 7.3.1
+
 - My Assignment 1 content reused with permission from posted announcement and in class confirmation
 - Assignment 1 content: introduction and background text, project description, CSS styling, form fields
 - Internet was used less than 10% in the capacity to better grasp certain concepts not to apply them. It was used for research purposes not application purposes. Majority of my code is from course material along with what I've previously learned from other courses and implemented my learning and knowledge into this assignment. The internet was also used to troubleshoot where i went wrong. 
