@@ -68,6 +68,10 @@ https://github.com/cbheir/Assignment-2-Portfolio
 ## Live Website 
 https://assignment-2-portfolio-g2hi.onrender.com 
 
+## Accessing live website through Render
+- Click live website link or copy & paste it in browser
+- If it doesn't load automatically please wait for 30-60 seconds for server to start
+
 ## Running locally
 - open Assignment-2-portfolio in terminal
 - run npm install (to install project dependencies)
