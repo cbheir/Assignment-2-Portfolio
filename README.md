@@ -25,14 +25,34 @@ Node.js, ExpressJS, EJS, Bootstrap, Font-Awesome, CSS, Javascript
 - INFR3120 lecture slides
 - INFR3120 in class examples and hands on
 - My Assignment 1 content reused with permission from posted announcement and in class confirmation
+- Assignment 1 content: introduction and background text, project description, CSS styling, form fields
+- Internet was used less than 10% in the capacity to better grasp certain concepts not to apply them. It was used for research purposes not application purposes. Majority of my code is from course material along with what I've previously learned from other courses and implemented my learning and knowledge into this assignment. The internet was also used to troubleshoot where i went wrong. 
 
 ## Where the references were applied 
 - app.js: express application setup, file configuration and ejs view engine 
 - routes/index.js: express router and res.render()
+- bootstrap source: based on in class hands on activity 
 - views/index.ejs: ejs, bootstrap navigation, stylesheet and font awesome
 
 ### Additional topics used for reference
 - HTML5 structure and semantic elements
+- Heading and links
+- Image and HTML5 video
+- Forms, CSS styling, colours
+
+## Requirements that i implemented
+- Express generator with EJS through views 
+- 4 express routes and EJS views
+- Shared header & footer 
+- Bootstrap and font awesome
+- Assets organized in public folder
+- Version control through multiple commits in Github
+
+## Github Repository
+https://github.com/cbheir/Assignment-2-Portfolio
+
+## Live Website 
+https://assignment-2-portfolio-g2hi.onrender.com 
 
 ## Development
 Multiple commits will be visible throughout development.
